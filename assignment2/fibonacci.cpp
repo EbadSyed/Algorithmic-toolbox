@@ -21,9 +21,9 @@ int fibonacci_naive(int n) {
     return fibonacci_naive(n - 1) + fibonacci_naive(n - 2);
 }
 
-int fibonacci_fast(int n) {
+int64_t fibonacci_fast(int n) {
     // write your code here
-    int fib [n];
+    int64_t fib [n];
     fib[0] = 0;
     fib[1] = 1;
 
